@@ -1141,7 +1141,7 @@ body {
 
   #services .container .services-and-icon #three-lines3 {
     height: 47px;
-    left: 48%;
+    transform: translate(29px, 0);
   }
   #customers .container .customers-box {
     width: 90%;
