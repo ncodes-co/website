@@ -208,11 +208,11 @@ function removeCircles() {
 
 function addCircles() {
   return new Promise((resolve) => {
-    const body = document.body; // الحصول على عنصر body
-    for (let i = 0; i < 33; i++) {
-      const newDiv = document.createElement("div"); // إنشاء عنصر div جديد
-      newDiv.classList.add("circle"); // إضافة الكلاس circle
-      body.insertBefore(newDiv, body.firstChild); // إضافة العنصر الجديد في بداية body
+    const body = document.body; 
+    for (let i = 0; i < 10; i++) {
+      const newDiv = document.createElement("div"); 
+      newDiv.classList.add("circle"); 
+      body.insertBefore(newDiv, body.firstChild); 
     }
     resolve(); // إشارة بأن الإضافة تمت
   });
